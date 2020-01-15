@@ -1,0 +1,1 @@
+# rider-live-templates
