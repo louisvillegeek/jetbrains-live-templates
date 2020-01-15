@@ -1,32 +1,5 @@
-# Live Templates for Rider
+# Live templates for the jetbrains IDE's
 
+Select the ide below to view the live templates available.
 
-
-Configure live templates in File -> Settings -> Editor -> Live Templates -> C#
-
-
-## EF Core Live Templates
-
-#### Navigational Properties
-* Shortcut: nav
-* Reformat: Unchecked
-
-##### Template:
-
-```
-public int $name$Id  { get; set; }
-[ForeignKey(nameof($name$Id))]
-public $name$ $name$ { get; set; }
-```
-
-#### OnModelCreating Method
-* Shortcut: onModelCreating
-* Reformat: Checked
-
-##### Template:
-
-```
-public static void OnModelCreating(ModelBuilder modelBuilder) {
-    $END$
-}
-```
+#### [Rider](rider.md)
