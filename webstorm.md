@@ -5,6 +5,10 @@
 
 ### Reducer
 
+* Check Enable Live Templates
+
+##### Code
+
 ```
 export interface #[[$Entity$]]# {
   id: number;
